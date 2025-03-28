@@ -1,0 +1,22 @@
+{
+  "name": "@repo/tailwind-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "exports": {
+    "./*": "./src/*.ts"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@types/node": "^22.13.11",
+    "eslint": "^9.23.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.15",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.15"
+  }
+}
